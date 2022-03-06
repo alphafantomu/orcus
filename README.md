@@ -9,10 +9,11 @@ A self-contained and lightweight object orientation handler in Lua.
 - There is no [LuaRocks](https://luarocks.org/) release, but only `init.lua` is necessary to use the library.
 
 ## Features
-- Mixin support
+- Mixins
 - Single inheritance
 - Casting
 - Class ancestry initilization (disabled by default)
+- Getter support (optional)
 
 ## Documentation
 You can find API documentation [here](https://github.com/alphafantomu/orcus/wiki).

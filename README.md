@@ -2,11 +2,9 @@
 A self-contained and lightweight object orientation handler in Lua.
 
 ## Installation
-- Make sure you have [luvit](https://luvit.io/install.html) installed
-- Run the command `lit install alphafantomu/orcus`
-- `require('orcus')` to reference the library
-
-- There is no [LuaRocks](https://luarocks.org/) release, but only `init.lua` is necessary to use the library.
+- This package uses the lit package manager, run `lit install alphafantomu/orcus`
+- If you're using this in a self-contained binary through [Luvi](https://github.com/luvit/luvi), you may include it inside `package.lua` as well `alphafantomu/orcus`
+- You can reference the library using `require('orcus')`
 
 ## Features
 - Mixins
